@@ -1,0 +1,32 @@
+{
+  "name": "fly-react",
+  "version": "0.1.0",
+  "description": "React plugin for Fly",
+  "license": "MIT",
+  "repository": "https://github.com/iiegor/fly-react",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "git push origin master && npm publish"
+  },
+  "author": {
+    "name": "Iegor Azuaga",
+    "email": "dextrackmedia@gmail.com"
+  },
+  "dependencies": {
+    "object-assign": "^4.0.1",
+    "react-tools": "^0.13.3"
+  },
+  "devDependencies": {
+    "fly": "^0.8.3",
+    "fly-react": "./"
+  },
+  "engines": {
+    "iojs": ">= 1.0.0",
+    "node": ">= 0.11.0"
+  },
+  "keywords": [
+    "fly",
+    "fly-plugin",
+    "react"
+  ]
+}
